@@ -1,0 +1,70 @@
+.flora * { color: inherit }
+.sol { background: Gold !important; color: #080808 !important }
+.luna { background: #080808 !important; color: Gold !important }
+.jugo { background: HotPink !important; color: #080808 !important }
+.metal { background: Silver !important; color: #080808 !important }
+
+.mundo {
+  font-family: system-ui, sans-serif;
+  font-size: calc(1em + 1vw + 1vh);
+  line-height: 1.5;
+}
+
+.cuerpo {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-wrap: break-word;
+}
+
+.capo {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.muy {
+  font-style: inherit;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.spine {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.amor {
+  margin: 0;
+  max-width: 100%;
+  flex-basis: 100%;
+}
+
+.quote {
+  box-sizing: border-box;
+  padding: 1rem;
+  border-left: .25rem dashed;
+  display: block;
+  min-height: 100vh;
+}
+
+.loco {
+  transform: rotate(180deg);
+}
+
+.pad-0 { box-sizing: border-box; padding: 0 }
+.pad-1 { box-sizing: border-box; padding: 1rem }
+.pad-2 { box-sizing: border-box; padding: 2rem }
+
+.voz {
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
